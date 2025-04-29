@@ -52,17 +52,19 @@ Si el modelo es grande podria necesitar mucha RAM o una GPU
 ## Version 1.0 
 Objetivo: Crear el modelo localmente
 
-Paso 1: Crear entorno virtual limpio en el terminal
-python -m venv venv
-venv\Scripts\activate
+Paso 1: Transformar documentos medicos (.docx) a .csv
 
-Paso 2: Notebook para cada modelo
-Modelos útiles para epicrisis
-- gpt2
-- BioGPT: Generación de texto biomédico
-- medAlpaca: IA generativa tipo Chat en salud #requiere mucha RAM o GPU potente
+Paso 2: Elegir Modelo (GPT2)
 
-Paso 3: clinical-T5
+
+
+
+## Version 1.1
+Paso 1: Eleguir Modelo (microsoft/BioGPT-Large)
+
+
+
+
 
 
 
