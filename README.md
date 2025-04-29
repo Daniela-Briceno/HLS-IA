@@ -32,9 +32,6 @@ En un entorno hospitalario se podrías usar:
 - scispaCy (NLP biomédico)
 - ClinicalBERT (para texto clínico)
 - Modelos de HuggingFace como [clinical-T5, biogpt, medalpaca]
-#### Modelo de Lenguaje Natural: scispaCy
-#### Modelo transformers: ClinicalBERT
-#### Modelos de HuggingFace (IA gen)
 
 ## Requisitos comunes
 transformers: para cargar los modelos
@@ -61,7 +58,7 @@ venv\Scripts\activate
 
 Paso 2: Notebook para cada modelo
 Modelos útiles para epicrisis
-- clinical-T5: Generación/resumen de informes
+- gpt2
 - BioGPT: Generación de texto biomédico
 - medAlpaca: IA generativa tipo Chat en salud #requiere mucha RAM o GPU potente
 
